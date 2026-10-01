@@ -24,6 +24,6 @@
 - [x] Fine-tune start and end trigger points.
 
 ## Phase 5: Polish & Final Review
-- [ ] Test animation smoothness and performance (ensure no layout reflows).
-- [ ] Ensure responsiveness across desktop and mobile screens.
-- [ ] Deploy the project (e.g., GitHub Pages, Vercel, Netlify).
+- [x] Test animation smoothness and performance (ensure no layout reflows).
+- [x] Ensure responsiveness across desktop and mobile screens.
+- [x] Deploy the project (e.g., GitHub Pages, Vercel, Netlify).

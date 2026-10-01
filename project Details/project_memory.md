@@ -1,9 +1,9 @@
 # Project Memory
 
 ## Current Status
-- Phase 4 (Scroll-Driven Animations) is complete.
-- Implemented GSAP ScrollTrigger for smooth parallax and scaling of the visual element.
-- Ready for Phase 5: Polish & Final Review.
+- Phase 5 (Polish & Final Review) is complete.
+- Static export build verified. The project is ready for deployment.
+- **Assignment Successfully Completed**.
 
 ## Completed Tasks
 - [x] Read and analyze `Company_requirements.odt` file.
@@ -29,3 +29,5 @@
 - [x] Tie visual element movement to scroll (parallax & scale).
 - [x] Configure scrubbing for fluid motion.
 - [x] Fine-tune animation triggers and start/end points.
+- [x] Configure Next.js static export (`output: 'export'`) for GitHub Pages deployment.
+- [x] Verify production build and performance (`npm run build`).
