@@ -2,23 +2,27 @@
 
 import { useRef } from "react";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import Headline from "./Headline";
 import Statistics from "./Statistics";
 import ScrollVisual from "./ScrollVisual";
 
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
+
 export default function Hero() {
   const container = useRef();
 
   useGSAP(() => {
+    // --- 1. Initial Load Sequence ---
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
     
-    // Initial load animation sequence
     tl.from(".headline-text", {
       y: 50,
       opacity: 0,
       duration: 1.2,
-      // Temporarily override tailwind tracking to animate it
       letterSpacing: "0em" 
     })
     .from(".stat-item", {
@@ -39,6 +43,32 @@ export default function Hero() {
       duration: 1
     }, "-=0.5");
 
+    // --- 2. Scroll-Driven Animations ---
+    
+    // Parallax & scale effect for the visual element (Car)
+    gsap.to(".visual-element", {
+      y: 400,             // Moves down creating a parallax effect
+      scale: 1.6,         // Scales up for dramatic zoom effect
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top top", // When top of hero hits top of viewport
+        end: "bottom top",// When bottom of hero hits top of viewport
+        scrub: 1,         // Smooth 1-second lag for fluid scrubbing
+      }
+    });
+
+    // Fade out headline and stats on scroll to focus on the car
+    gsap.to([".headline-container", ".statistics-container", ".scroll-indicator"], {
+      y: -50,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top top",
+        end: "center top",
+        scrub: 0.5
+      }
+    });
+
   }, { scope: container });
 
   return (
@@ -52,7 +82,7 @@ export default function Hero() {
       <ScrollVisual />
       
       {/* Scroll Indicator */}
-      <div className="scroll-indicator absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-50">
+      <div className="scroll-indicator absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-50 z-10">
         <span className="text-xs uppercase tracking-widest mb-2 font-mono text-gray-400">Scroll to Explore</span>
         <div className="w-px h-12 bg-gradient-to-b from-gray-400 to-transparent" />
       </div>

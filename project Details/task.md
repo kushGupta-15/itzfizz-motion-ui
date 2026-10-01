@@ -18,10 +18,10 @@
 - [x] Stagger animate Statistics components into view.
 
 ## Phase 4: Scroll-Driven Animations
-- [ ] Register GSAP ScrollTrigger plugin.
-- [ ] Tie the main Visual Element (car image) movement to the scroll position using ScrollTrigger.
-- [ ] Add easing/scrubbing so motion feels fluid and linked to user scrolling speed.
-- [ ] Fine-tune start and end trigger points.
+- [x] Register GSAP ScrollTrigger plugin.
+- [x] Tie the main Visual Element (car image) movement to the scroll position using ScrollTrigger.
+- [x] Add easing/scrubbing so motion feels fluid and linked to user scrolling speed.
+- [x] Fine-tune start and end trigger points.
 
 ## Phase 5: Polish & Final Review
 - [ ] Test animation smoothness and performance (ensure no layout reflows).

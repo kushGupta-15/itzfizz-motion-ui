@@ -1,9 +1,9 @@
 # Project Memory
 
 ## Current Status
-- Phase 3 (Initial Load Animations) is complete.
-- GSAP timeline handles headline fade, letter-spacing, and stats stagger on load.
-- Ready for Phase 4: Scroll-Driven Animations.
+- Phase 4 (Scroll-Driven Animations) is complete.
+- Implemented GSAP ScrollTrigger for smooth parallax and scaling of the visual element.
+- Ready for Phase 5: Polish & Final Review.
 
 ## Completed Tasks
 - [x] Read and analyze `Company_requirements.odt` file.
@@ -25,3 +25,7 @@
 - [x] Assemble Hero component and update page layout.
 - [x] Implement GSAP load timeline in Hero component.
 - [x] Add stagger animations for Statistics and letter-spacing transition for Headline.
+- [x] Register GSAP ScrollTrigger plugin.
+- [x] Tie visual element movement to scroll (parallax & scale).
+- [x] Configure scrubbing for fluid motion.
+- [x] Fine-tune animation triggers and start/end points.
