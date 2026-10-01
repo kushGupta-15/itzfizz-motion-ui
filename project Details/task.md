@@ -1,0 +1,29 @@
+# Project Tasks
+
+## Phase 1: Setup & Initialization
+- [ ] Initialize Next.js project with Tailwind CSS.
+- [ ] Clean up default template and configure basic project structure.
+- [ ] Install GSAP and GSAP ScrollTrigger.
+- [ ] Set up global CSS and custom fonts (Inter/Space Grotesk).
+
+## Phase 2: Static Layout
+- [ ] Build the basic static Hero section layout.
+- [ ] Create the Headline component ("W E L C O M E I T Z F I Z Z").
+- [ ] Create the Statistics/Impact Metrics component.
+- [ ] Place the main Visual Element (car image) in its initial position.
+
+## Phase 3: Initial Load Animations
+- [ ] Implement GSAP timeline for page load.
+- [ ] Animate Headline (fade in + slide up or slight letter spacing transition).
+- [ ] Stagger animate Statistics components into view.
+
+## Phase 4: Scroll-Driven Animations
+- [ ] Register GSAP ScrollTrigger plugin.
+- [ ] Tie the main Visual Element (car image) movement to the scroll position using ScrollTrigger.
+- [ ] Add easing/scrubbing so motion feels fluid and linked to user scrolling speed.
+- [ ] Fine-tune start and end trigger points.
+
+## Phase 5: Polish & Final Review
+- [ ] Test animation smoothness and performance (ensure no layout reflows).
+- [ ] Ensure responsiveness across desktop and mobile screens.
+- [ ] Deploy the project (e.g., GitHub Pages, Vercel, Netlify).
