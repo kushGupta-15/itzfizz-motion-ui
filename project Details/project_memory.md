@@ -1,10 +1,9 @@
 # Project Memory
 
 ## Current Status
-- Project initialization phase.
-- Requirements have been gathered and analyzed.
-- Project details, PRD, architecture, rules, design, and task files have been created.
-- Pending Next.js project scaffolding (if user proceeds to build phase).
+- Phase 1 (Setup & Initialization) is complete.
+- Project is scaffolded in `itzfizz-motion-ui`.
+- Ready for Phase 2: Static Layout.
 
 ## Completed Tasks
 - [x] Read and analyze `Company_requirements.odt` file.
@@ -15,3 +14,7 @@
 - [x] Draft Design System (`design.md`).
 - [x] Draft Project Tasks (`task.md`).
 - [x] Initialize Project Memory (`project_memory.md`).
+- [x] Initialize Next.js project with Tailwind CSS.
+- [x] Clean up default template and configure basic project structure.
+- [x] Install GSAP and GSAP ScrollTrigger.
+- [x] Set up global CSS and custom fonts (Inter/Space Grotesk).

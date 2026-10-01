@@ -1,10 +1,10 @@
 # Project Tasks
 
 ## Phase 1: Setup & Initialization
-- [ ] Initialize Next.js project with Tailwind CSS.
-- [ ] Clean up default template and configure basic project structure.
-- [ ] Install GSAP and GSAP ScrollTrigger.
-- [ ] Set up global CSS and custom fonts (Inter/Space Grotesk).
+- [x] Initialize Next.js project with Tailwind CSS.
+- [x] Clean up default template and configure basic project structure.
+- [x] Install GSAP and GSAP ScrollTrigger.
+- [x] Set up global CSS and custom fonts (Inter/Space Grotesk).
 
 ## Phase 2: Static Layout
 - [ ] Build the basic static Hero section layout.
