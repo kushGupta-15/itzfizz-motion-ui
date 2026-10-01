@@ -6,7 +6,8 @@ A modern, highly interactive hero section featuring smooth, scroll-driven animat
 
 - **Premium Design Aesthetic:** Deep colors, stark contrasts, and sophisticated typography using Inter and Space Grotesk.
 - **Initial Load Sequence:** Smooth staggered reveal of headlines, statistics, and main visuals orchestrated by GSAP timelines.
-- **Scroll-Driven Parallax:** The primary visual element (car) scales and traverses vertically based on your scroll position, creating a fluid, fluid 3D-like effect.
+- **Scroll-Driven Horizontal Scrubbing:** The hero viewport pins in place while the primary visual element (car) drives horizontally across the screen mapped precisely to your scroll position.
+- **Dynamic Interactions:** Text elements glow and statistics stagger into view at specific scroll milestones (25%, 50%, 100%), creating a fluid 3D-like depth effect.
 - **High Performance:** Exclusively uses CSS transforms and opacity for animations, avoiding expensive layout reflows on the main thread.
 
 ## 💻 Tech Stack

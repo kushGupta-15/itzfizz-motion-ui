@@ -1,7 +1,7 @@
 # Architecture
 
 ## High Level Architecture
-The application is a frontend-only single-page experience built with Next.js (React). It will leverage a component-based architecture where the Hero section is the primary focal point. Animations will be orchestrated using GSAP (GreenSock Animation Platform) and its ScrollTrigger plugin to handle scroll-driven events and initial load sequences efficiently. This avoids relying on heavy React state updates for every scroll tick, thereby ensuring high performance.
+The application is a frontend-only single-page experience built with Next.js (React). It will leverage a component-based architecture where the Hero section is the primary focal point. Animations will be orchestrated using GSAP (GreenSock Animation Platform) and its ScrollTrigger plugin to handle initial load sequences and scroll-driven events (pinning the viewport, scrubbing a horizontal timeline, staggering components) efficiently. This avoids relying on heavy React state updates for every scroll tick, thereby ensuring high performance.
 
 ## Technology Stack
 - **Framework**: Next.js / React.js

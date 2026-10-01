@@ -19,5 +19,5 @@ Traditional static web pages often fail to engage users immediately upon arrival
 ## Core Features
 1. **Hero Section Layout**: Above-the-fold design featuring a letter-spaced headline ("W E L C O M E I T Z F I Z Z") and impact metrics/statistics.
 2. **Initial Load Animation**: Smooth appearance of the headline (fade + staggered reveal) and statistics upon page load.
-3. **Scroll-Based Animation**: A main visual element (e.g., an object like a car) that moves smoothly in direct response to the user's scroll position.
+3. **Scroll-Based Animation**: The hero section is pinned during scroll, while a main visual element (e.g., an object like a car) scrubs horizontally across the screen from left to right. The text gains dynamic glowing effects and statistics fade in sequentially (at 25%, 50%, 100%) precisely mapped to the scroll progress.
 4. **Performance Optimized**: Use of CSS transforms (translate, scale, rotate) rather than expensive layout calculations.
