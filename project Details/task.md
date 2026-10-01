@@ -7,10 +7,10 @@
 - [x] Set up global CSS and custom fonts (Inter/Space Grotesk).
 
 ## Phase 2: Static Layout
-- [ ] Build the basic static Hero section layout.
-- [ ] Create the Headline component ("W E L C O M E I T Z F I Z Z").
-- [ ] Create the Statistics/Impact Metrics component.
-- [ ] Place the main Visual Element (car image) in its initial position.
+- [x] Build the basic static Hero section layout.
+- [x] Create the Headline component ("W E L C O M E I T Z F I Z Z").
+- [x] Create the Statistics/Impact Metrics component.
+- [x] Place the main Visual Element (car image) in its initial position.
 
 ## Phase 3: Initial Load Animations
 - [ ] Implement GSAP timeline for page load.

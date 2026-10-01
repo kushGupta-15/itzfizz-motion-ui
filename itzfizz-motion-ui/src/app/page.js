@@ -1,12 +1,13 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-4xl font-mono tracking-[0.2em] md:tracking-[0.5em] uppercase text-center">
-        W E L C O M E I T Z F I Z Z
-      </h1>
-      <p className="mt-4 font-sans text-gray-400">
-        Scroll-driven hero animation project initialized.
-      </p>
+    <main className="w-full">
+      <Hero />
+      {/* Spacer to allow for scrolling in Phase 4 */}
+      <section className="h-[150vh] w-full bg-[#0F0F0F] flex items-center justify-center">
+        <h2 className="text-3xl text-gray-600 font-mono tracking-widest">More Content Below</h2>
+      </section>
     </main>
   );
 }
