@@ -1,9 +1,9 @@
 # Project Memory
 
 ## Current Status
-- Phase 2 (Static Layout) is complete.
-- Hero, Headline, Statistics, and ScrollVisual components have been created.
-- Ready for Phase 3: Initial Load Animations.
+- Phase 3 (Initial Load Animations) is complete.
+- GSAP timeline handles headline fade, letter-spacing, and stats stagger on load.
+- Ready for Phase 4: Scroll-Driven Animations.
 
 ## Completed Tasks
 - [x] Read and analyze `Company_requirements.odt` file.
@@ -23,3 +23,5 @@
 - [x] Create Statistics component.
 - [x] Create ScrollVisual component.
 - [x] Assemble Hero component and update page layout.
+- [x] Implement GSAP load timeline in Hero component.
+- [x] Add stagger animations for Statistics and letter-spacing transition for Headline.

@@ -13,9 +13,9 @@
 - [x] Place the main Visual Element (car image) in its initial position.
 
 ## Phase 3: Initial Load Animations
-- [ ] Implement GSAP timeline for page load.
-- [ ] Animate Headline (fade in + slide up or slight letter spacing transition).
-- [ ] Stagger animate Statistics components into view.
+- [x] Implement GSAP timeline for page load.
+- [x] Animate Headline (fade in + slide up or slight letter spacing transition).
+- [x] Stagger animate Statistics components into view.
 
 ## Phase 4: Scroll-Driven Animations
 - [ ] Register GSAP ScrollTrigger plugin.
