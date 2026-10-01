@@ -8,7 +8,7 @@ export default function Statistics() {
   return (
     <div className="statistics-container flex flex-wrap justify-center gap-8 mt-12 z-10 relative">
       {stats.map((stat, index) => (
-        <div key={index} className="stat-item flex flex-col items-center">
+        <div key={index} className="stat-item flex flex-col items-center opacity-0">
           <span className="text-3xl md:text-5xl font-sans font-extrabold text-[#FF4C29]">
             {stat.value}
           </span>
